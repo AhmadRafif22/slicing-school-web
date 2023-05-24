@@ -1,1 +1,1 @@
-## A slicing school website for internship selection on Inagata
+## A slicing school website 
