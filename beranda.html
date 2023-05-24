@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="dist/output.css">
     <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -30,7 +31,7 @@
                 PPDB</div>
         </nav>
 
-        <div class="flex justify-center mt-[13vh]  max-md:mt-[1vh]">
+        <div class="flex justify-center mt-[13vh]  max-md:mt-[1vh]" data-aos="zoom-in" data-aos-duration="1000">
             <div class="flex flex-col w-[60%] text-center space-y-3 items-center max-md:w-[80%]">
                 <p class="text-6xl font-bold p-3 text-[#404040] font-Rounded max-md:text-xl max-md:p-1">Tuntut Ilmu
                     Untuk Masa
@@ -53,8 +54,9 @@
 
     <div
         class="flex items-center justify-center space-x-16 py-[15vh] px-[10vw] max-md:py-[8vh] max-md:space-x-0 max-md:flex-wrap">
-        <img src="asset/beranda/tentang.svg" alt="" class="max-md:w-[50%] max-md:mb-4">
-        <div class="p-2 ">
+        <img src="asset/beranda/tentang.svg" alt="" class="max-md:w-[50%] max-md:mb-4" data-aos="fade-right"
+            data-aos-duration="1500">
+        <div class="p-2" data-aos="fade-left" data-aos-duration="1500">
             <p class="text-2xl font-semibold text-[#FF5555] mb-4 max-md:text-sm max-md:mb-2">Tentang Kami</p>
             <h1 class="text-6xl font-Rounded mb-6 text-[#404040] max-md:text-xl max-md:mb-3">Sekolah Alam Insan Mulia
                 Berkarya</h1>
@@ -76,7 +78,7 @@
             Berkarya
         </h1>
         <div class="flex space-x-6 max-md:flex-col max-md:items-center max-md:space-x-0 ">
-            <div class="p-4 w-[30%] max-md:w-[80%]">
+            <div class="p-4 w-[30%] max-md:w-[80%]" data-aos="fade-up" data-aos-duration="1500">
                 <img src="asset/book-icon.svg" alt="" class="mb-5 max-md:w-[8vw] max-md:mb-2">
                 <p class="text-2xl mb-4 pr-20 font-semibold text-[#404040] max-md:text-sm max-md:mb-2">
                     Menggunakan Kurikulum Terbaru
@@ -87,7 +89,7 @@
                 </p>
 
             </div>
-            <div class="p-4 w-[30%] max-md:w-[80%]">
+            <div class="p-4 w-[30%] max-md:w-[80%]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                 <img src="asset/clock-icon.svg" alt="" class="mb-5 max-md:w-[8vw] max-md:mb-2">
                 <p class="text-2xl mb-4 pr-20 font-semibold text-[#404040] max-md:text-sm max-md:mb-2">
                     Efektifitas Waktu
@@ -99,7 +101,7 @@
                 </p>
 
             </div>
-            <div class="p-4 w-[30%] max-md:w-[80%]">
+            <div class="p-4 w-[30%] max-md:w-[80%]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
                 <img src="asset/pen-icon.svg" alt="" class="mb-5 max-md:w-[8vw] max-md:mb-2">
                 <p class="text-2xl mb-4 pr-20 font-semibold text-[#404040] max-md:text-sm max-md:mb-2">
                     Penyaluran
@@ -168,7 +170,8 @@
     </div>
 
 
-    <div class="flex justify-center flex-col text-center items-center px-[10vw] py-[15vh] max-md:py-[8vh]">
+    <div class="flex justify-center flex-col text-center items-center px-[10vw] py-[15vh] max-md:py-[8vh]"
+        data-aos="zoom-in" data-aos-duration="1500">
         <p class="text-2xl text-[#FF5555] font-semibold mb-4 max-md:text-sm max-md:mb-2">
             Kumpulan Mitra
         </p>
@@ -238,7 +241,7 @@
     <div
         class="bg-[url('/asset/beranda/bg-beranda2.svg')] min-h-[133vh] bg-cover bg-center py-[18vh] max-md:min-h-[70vh]">
 
-        <div class="flex justify-center">
+        <div class="flex justify-center" data-aos="fade-up" data-aos-duration="1500">
             <div class="flex flex-col w-[60%] text-center items-center max-md:w-[80%]">
                 <p class="text-2xl text-[#FF5555] font-semibold mb-4 max-md:text-sm max-md:mb-2">
                     Tunggu Apalagi
@@ -300,6 +303,11 @@
     <footer class="text-center w-[100%] text-xl border-t-2 bg-[#333333] text-white p-8 max-md:p-3 max-md:text-xs">
         Copyright © 2021. All rights reserved.
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
