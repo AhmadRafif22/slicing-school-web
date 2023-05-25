@@ -538,6 +538,11 @@ video {
   margin: 0px;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -604,6 +609,14 @@ video {
 
 .mb-0 {
   margin-bottom: 0px;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .flex {
@@ -692,6 +705,10 @@ video {
 
 .basis-1\/4 {
   flex-basis: 25%;
+}
+
+.basis-1\/3 {
+  flex-basis: 33.333333%;
 }
 
 .cursor-pointer {
@@ -871,6 +888,10 @@ video {
   background-image: url('/asset/tentang/bg-tentang.svg');
 }
 
+.bg-\[url\(\'\/asset\/berita\/bg-berita\.svg\'\)\] {
+  background-image: url('/asset/berita/bg-berita.svg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -937,6 +958,16 @@ video {
 .px-\[5vw\] {
   padding-left: 5vw;
   padding-right: 5vw;
+}
+
+.py-\[20vh\] {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pr-20 {
@@ -1375,6 +1406,15 @@ video {
     padding-bottom: 5vh;
   }
 
+  .max-md\:py-\[6vh\] {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
+
+  .max-md\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
   .max-md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1393,5 +1433,10 @@ video {
   .max-md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .max-md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
