@@ -1186,6 +1186,14 @@ video {
     width: 60%;
   }
 
+  .max-md\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .max-md\:w-\[75\%\] {
+    width: 75%;
+  }
+
   .max-md\:shrink-0 {
     flex-shrink: 0;
   }
@@ -1216,6 +1224,10 @@ video {
 
   .max-md\:flex-nowrap {
     flex-wrap: nowrap;
+  }
+
+  .max-md\:items-start {
+    align-items: flex-start;
   }
 
   .max-md\:items-center {
