@@ -587,10 +587,6 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mb-9 {
   margin-bottom: 2.25rem;
 }
@@ -631,20 +627,12 @@ video {
   width: 35vw;
 }
 
-.w-\[38vw\] {
-  width: 38vw;
-}
-
 .w-\[40\%\] {
   width: 40%;
 }
 
 .w-\[45\%\] {
   width: 45%;
-}
-
-.w-\[45vw\] {
-  width: 45vw;
 }
 
 .w-\[50\%\] {
@@ -693,12 +681,6 @@ video {
 
 .justify-around {
   justify-content: space-around;
-}
-
-.space-x-16 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(4rem * var(--tw-space-x-reverse));
-  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -788,12 +770,9 @@ video {
   background-color: rgb(255 250 242 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/asset\/beranda\/bg-beranda\.svg\'\)\] {
-  background-image: url('/asset/beranda/bg-beranda.svg');
-}
-
-.bg-\[url\(\'\/asset\/beranda\/bg-beranda2\.svg\'\)\] {
-  background-image: url('/asset/beranda/bg-beranda2.svg');
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/asset\/berita\/bg-berita\.svg\'\)\] {
@@ -840,6 +819,10 @@ video {
   padding: 2rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -879,16 +862,8 @@ video {
   padding-bottom: 15vh;
 }
 
-.pl-\[10vw\] {
-  padding-left: 10vw;
-}
-
 .pr-20 {
   padding-right: 5rem;
-}
-
-.pr-\[8vw\] {
-  padding-right: 8vw;
 }
 
 .text-center {
@@ -1102,10 +1077,6 @@ video {
     width: 25vw;
   }
 
-  .max-md\:w-\[50\%\] {
-    width: 50%;
-  }
-
   .max-md\:w-\[55vw\] {
     width: 55vw;
   }
@@ -1120,10 +1091,6 @@ video {
 
   .max-md\:w-\[80\%\] {
     width: 80%;
-  }
-
-  .max-md\:w-\[85\%\] {
-    width: 85%;
   }
 
   .max-md\:w-\[8vw\] {
@@ -1162,16 +1129,8 @@ video {
     flex-direction: column;
   }
 
-  .max-md\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
   .max-md\:flex-nowrap {
     flex-wrap: nowrap;
-  }
-
-  .max-md\:items-start {
-    align-items: flex-start;
   }
 
   .max-md\:items-center {
